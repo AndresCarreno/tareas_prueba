@@ -21,7 +21,7 @@ import com.pruebatecnica.coopeuch.service.TareaService;
 
 @RestController
 @RequestMapping("api/")
-@CrossOrigin(origins = "${front.url}")
+@CrossOrigin(origins = "*")
 public class TareaController {
 	
 	@Autowired
