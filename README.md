@@ -4,6 +4,8 @@ Prueba técnica
 - Cambiar credenciales en applicarion.properties para producción
 - Cambiar .env para producción
 
+- Correr sql de la carpeta src/main/resources
+
 On root run
 - mvn clean package
 
